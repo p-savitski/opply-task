@@ -11,5 +11,4 @@ app_name = 'api'
 urlpatterns = [
     path('users/', include(users_urls.urlpatterns)),
     path('health-check/', views.HealthCheck.as_view()),
-
 ]
