@@ -1,5 +1,6 @@
 ### Local deployment
 - Create and activate virtual env (if needed)
+- install required packages: ```pip install -r requirements```
 - Run migrations: ```python manage.py migrate```
 - Run project: ```python manage.py runserver 127.0.0.1:8000```
 - Products can be created using custom command: ```python manage.py populate_db```
